@@ -217,7 +217,15 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 
-# Ignore raw data files
+# Ignore raw datasets
 data/*.csv
-data/*.zip
 *.csv
+
+# Ignore Python cache & environments
+__pycache__/
+*.pyc
+.venv/
+env/
+
+# Ignore Jupyter checkpoint files
+.ipynb_checkpoints/
